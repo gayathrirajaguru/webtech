@@ -1,0 +1,77 @@
+nav{
+    background-color: black;
+    color: white;
+
+}
+/* wheneve we place the mouse in the element it will change the color*/
+nav > h2:hover{
+    color: rgb(95, 237, 247);
+    text-decoration: underline;
+    font-style: italic;
+}
+header{
+    height: 200px;
+    background-color: rgb(227, 136, 18);
+    color: white;
+}
+header > h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+/*whenever we check on that element it will change color
+*/
+header > h1:active{
+    color: blue;
+}
+section{
+    background-color: rgb(229, 155, 65);
+}
+section > h1:nth-child(2)
+{
+    color: rgb(85, 25, 153);
+}
+section > p:nth-child(6)
+{
+    background-color: aquamarine;
+}
+section > ol > li:nth-child(2n){
+    background-color: blueviolet;
+    color: black;
+}
+article > h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    
+}
+article > p{
+    font-size: 15px;
+    text-align: justify;
+}
+/*:: for pseudo element*/
+article > p::first-letter{
+    font-size: 40px;
+}
+article > p::first-line{
+    font-style: italic;
+}
+article > h1::before{
+    content: "****";
+}
+article > h1::after{
+    content: "!!!!!!!!";
+    color: rgb(26, 22, 1);
+}
+article::selection{
+    background-color: rgb(240, 79, 16);
+    color: green;
+}
+article > ol > li::marker{
+    color: rgb(239, 23, 3);
+}
+article > ol > li:nth-child(2n+1)::marker{
+   
+    color: blue;
+}

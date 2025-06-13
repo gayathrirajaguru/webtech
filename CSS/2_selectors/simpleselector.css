@@ -1,0 +1,32 @@
+/* Tagname selector*/
+nav{
+    background-color:gray;
+    height: 200px;
+}
+main{
+    background-color: rgb(178, 187, 187);
+    height: 200px;
+}
+/*id selector*/
+#logo{
+    color: blue;
+}
+section{
+    background-color: rgb(185, 166, 143);
+    height: 200px;
+}
+/*class selector*/
+.para{
+    color: purple;
+}
+/*universal selector*/
+*{
+    text-align: center;
+    font-style: italic;
+}
+/* group selector
+*/
+p , #logo{
+    text-decoration: underline;
+
+}

@@ -1,0 +1,23 @@
+#con1{
+    background-color: rgb(215, 156, 47);
+    height: 200px;
+}
+/*descendent selector*/
+
+#con1 #head2{
+    color: rgb(231, 227, 226);
+}
+#con1 .box{
+    background-color: rgb(159, 135, 105);
+    height: 100px;
+}
+/*2.Direct child selector*/
+#con2 > h2{
+    color: blue;
+}
+#con2 > .box > h2{
+ color: rgb(213, 26, 139);
+}
+#con2{
+    background-color: rgb(227, 232, 238);
+}

@@ -1,0 +1,31 @@
+#nav{
+    background-color: bisque;
+    height: 200px;
+}
+.main{
+    background-color: rgb(244, 180, 98);
+    height: 200px;
+}
+#nav > h2{
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-size:xx-large;
+}
+.main > p{
+    font-size: medium;
+    font-style: oblique;
+}
+.main >  p > span{
+         font-weight: bold;
+         background-color: bisque;
+         color: blueviolet;
+         text-decoration: underline;
+}
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main > ol{
+    font-style: italic;
+    background-color: rgb(241, 241, 245);
+}
