@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    border: 2px solid rgb(60, 11, 219);
+}
+.container > .box{
+    border: 2px solid black;
+    height: 70px;
+    width: 70px;
+
+}
+.container > #box1{
+    display: inline-block;
+}
+.container > #box2{
+    display: inline-block;
+}
+.container > #box3{
+    display: inline-block;
+}
+.container > #box4{
+    display: inline;
+}
+button{
+    display: block;
+}
+ .container > p{
+    display: none;
+}

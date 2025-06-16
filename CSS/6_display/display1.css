@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    border: 2px solid black;
+    background-color: black;
+    height: 250px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    
+}
+.con > button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.con > button:hover{
+    background-color: rgb(174, 108, 218);
+    color: white;
+}

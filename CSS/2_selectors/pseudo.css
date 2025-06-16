@@ -75,3 +75,11 @@ article > ol > li:nth-child(2n+1)::marker{
    
     color: blue;
 }
+/**/
+form > input[type="text"]{
+    background-color: rgb(225, 222, 228);
+    color: rgb(100, 97, 97);
+}
+.container > a[target="_self"]{
+    font-size:20px;
+}
