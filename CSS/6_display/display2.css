@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    background-color: red;
+    border-radius: 10px;
+    
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 40px 40px ;
+    /*border: 4px solid black;*/
+    text-align: center;
+    box-shadow: 2px 3px 3px black;
+
+    
+}
+.con > img{
+    padding: 0;
+    
+    
+}
+.con > h1{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-block: 10px;
+    color: white;
+
+}
+.con > .para1{
+    color: white;
+    font-style: initial;
+    margin-bottom: 7px;
+    font-size: 20px;
+    
+    color: white;
+}
+.con > .para2{
+    font-style: italic;
+    color: white;
+    margin-bottom: 10px;
+}
+.con > button{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+
+
+.con > button:hover{
+    background-color: gray;
+    color: blue;
+}
+
