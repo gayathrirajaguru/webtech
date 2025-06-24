@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer>.inner{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(98, 0, 255);
+    transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    
+}
+.inner:hover{
+    border-radius: 50%;
+    background-color: red;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+
+}
+.inner{
+    padding: 20px 40px;
+    margin: 20px;
+
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
+    box-shadow: 4px 3px 3px rgb(28, 28, 115);
+}
+
+ 
+
+
+
+.outer > .inner >header > h1{
+
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+ 
+    margin-bottom: 6px;
+
+    
+
+}
+header > p{
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.outer >.inner >form >label{
+  font-style: initial;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 6px;
+  display: block;
+}
+form > input{
+    display: block;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    border:  1px solid black;
+}
+.outer >.inner >form > button{
+    background-color: blue;
+    display: block;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    border:  none;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+footer {
+    display: flex;
+    margin-top: 5px;
+}
+footer > p{
+    font-style: italic;
+}
+footer >a{
+    margin-left: 100px;
+}

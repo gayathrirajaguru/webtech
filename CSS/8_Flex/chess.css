@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+.outer{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.outer > .inner{
+    border: 5px solid black;
+    height: 50%;
+    width: 50%;
+   
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.w{
+    height: 50%;
+    width: 50%;
+}
+.b{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+
+}

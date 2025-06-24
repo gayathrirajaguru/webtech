@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    height: 500px;
+    width: 600px;
+    border: 3px solid black;
+    display: flex;
+    /*flex direction by default row*/
+    flex-direction: row;
+    /*flex-direction: column*/
+    /*main axis is the flex directon*/
+    /*justify-content: flex-end;*/
+    justify-content: center;
+    /*arrange all element in the main axis*/
+    align-items:center;
+    background-color: yellow;
+
+
+}
+.con > .box{
+    height: 80px;
+    width: 80px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color:blueviolet;
+}
