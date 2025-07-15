@@ -1,0 +1,33 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    background-color: brown;
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+.con1{
+    display: flex;
+    justify-content: space-around;
+}
+.con1>.box{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+@media (max-width:700px){
+    .con{
+        background-color: green;
+        height: 40px;
+    }
+    .con1>.box{
+        display: flex;
+        width: 100%;
+    }
+    
+}

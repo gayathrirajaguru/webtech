@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+}
+.con>.left{
+    flex-basis: 50%;
+    background-color: blue;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.con>.left>h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.con>.left>.inner{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 400px;
+    padding: 20px 40px;
+}
+
+form>label{
+    display: block;
+     margin-bottom: 10px; 
+   font-weight: bold;
+    
+}
+form>input{
+    display: block;
+    padding: 5px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+button{
+    width: 300px;
+    height: 30px;
+    border-radius:10px ;
+    border: none;
+    box-shadow: 0px 2px 3px gray;
+    margin-bottom: 20px;
+    color: white;
+    background-color:black;
+}
+.con>.left>.inner>.new{
+    display: flex;
+    gap: 100px;
+}
+p{
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+}
+.con>.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+    background-color: aqua;
+}
+img{
+    height: 400px;
+    width: 400px;}

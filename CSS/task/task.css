@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: black;
+    width: 100%;
+    color: bisque;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+h3{
+    padding-left: 0px;
+}
+.head>ul{
+    display: flex;
+    padding-left: 500px;
+    gap: 10px;
+    text-decoration: none;
+    height: 50px;
+    padding-top: 10px;
+
+}
+.head>ul>li{
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease-in;
+    
+    list-style-type: none;
+    margin: 10px;
+    
+
+
+
+}
+
+.con{
+    background-image: url("./mobile2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.con >h1{
+    color: rgb(214, 10, 95);
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.con>p{
+    color: rgb(241, 241, 242);
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 9px;
+}

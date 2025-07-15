@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer>.left{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.outer>.right{
+    flex-basis: 50%;
+}
+.outer>.left>.upper{
+    flex-basis: 50%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+@media (max-width:700px) {
+    .outer>.box2{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    
+}

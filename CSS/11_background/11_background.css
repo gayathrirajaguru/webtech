@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,red, yellow,blue);
+  
+
+
+}
+.inner{
+    
+    height: 400px;
+    width: 600px;
+    background-color: rgb(216, 185, 185);
+    /*colour hurt web page, coolers
+    rgba->red green blue alpha*/
+      background-image: url("./girl.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 20px;
+      box-shadow: 0px 3px 4px rgba(0,0,0,0.7);
+
+
+}
+.outer> .inner>h1{
+    text-align: center;
+    color: rgb(230, 224, 221);
+    
+}
+.outer> .inner:hover{
+   background-image: url("./photo.jpeg");
+}

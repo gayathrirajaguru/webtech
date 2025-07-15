@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    
+}
+.outer>.left{
+    flex-basis: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.outer>.left>h1{
+    color: blue;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+.outer>.left>p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.outer>.right{
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(197, 161, 161);
+    height: 350px;
+    width: 400px;
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+form>input{
+    padding: 15px 15px;
+    margin: 15px;
+}
+form>.b1{
+    background-color: blue;
+    color: white;
+    padding: 15px 15px;
+    width: 380px;
+    margin-left:10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+form>a{
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+button{
+    background-color: green;
+    padding: 15px 15px;
+    width: 200px;
+    margin-left: 100px;                                                                                                                                                                                                                                     
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.outer>.right>p>span{
+    font-weight: bold;
+   margin-top: 20px;
+   font-size: 20px;
+}

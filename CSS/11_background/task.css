@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class{
+    
+    background-attachment: fixed;
+}
+#class1{
+    background-image: url("./image2.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#class2{
+    background-image: url("./images1.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#class3{
+    background-image: url("./image3.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#class4{
+    background-image: url("./photo.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    padding-top: 300px;
+    font-size: 50px;
+    text-align: center;
+
+}
+p{
+    
+    font-size: 30px;
+     text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+}
