@@ -75,6 +75,17 @@ let arr7=[10,20,30,40,50,60,70]
 arr7.splice(2,0,25)
 console.log(arr7);
 
+//! variable hoisting
+// if we are acessing any variable before its declaration ,an dthe variable has declared by var keyword then this part will moving to the top 
+//and it will give the output as undefined .it is called variable hoisting
+// variable hoisting is  possible  for only var keyword not let and const
+console.log(r)
+let r
+console.log(g)
+var g
+//! 
+
+
 
 
  

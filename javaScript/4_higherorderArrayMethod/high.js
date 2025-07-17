@@ -47,6 +47,22 @@ console.log(greater);
     return acc*ele
  },1)
  console.log(mul);
+ //! sort()
+ // this method is used to arrange the array in ascending or descenting order
+ // it will take two parameters
+ // firstparameter-secondparameter --->ascending 
+ //secondparameter-firstparameter---->descending
+ let arr1=[10,20,30,40,50]
+ let asc=arr1.sort((x,y)=>{
+    return x-y;
+
+ })
+ console.log(asc);
+ let des=arr1.sort((x,y)=>y-x)
+ 
+ console.log(des);
+ 
+ 
  
  
 
