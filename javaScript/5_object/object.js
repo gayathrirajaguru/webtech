@@ -101,6 +101,21 @@ console.log(Object.isSealed(ob1));
 // it is used to know the key is present or not in the object
 //it will return the boolean
 console.log(ob1.hasOwnProperty('name'));
+//! Object.assign
+//
+let ob2={
+    name:'virat',
+    id:18
+}
+let ob3={
+    location:'chennai',
+    ph:9874321234
+}
+let newObject=Object.assign({},ob1,ob2)
+console.log(newObject);
+console.log(ob1);
+
+
 
 
 
