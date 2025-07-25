@@ -40,7 +40,35 @@
  let thirdBox=boxes[2]
  console.log(thirdBox);
  thirdBox.innerHTML="<h2> I am box3</h2><p> hii how are you</p>"
+
+
+
+ //! how to style
+ let loginbutton=document.querySelector(".btn")
+ console.log(loginbutton);
+ loginbutton.style.backgroundColor="blue"
+ loginbutton.style.padding="10px"
+ loginbutton.style.color="white"
+
+
+ let section=document.querySelector(".section")
+console.log(section);
+section.classList.add("con1")
+console.log(section.classList);
+
+//! how to create and display the element
+let button=document.createElement("button")
+button.innerText="button from js"
+
+button.style.backgroundColor="red"
+button.style.color="white"
+section.prepend(button)
+
  
+ let footer=document.createElement("div")
+ footer.innerHTML="<p>end</p>"
+ footer.classList.add("footer")
+ section.after(footer)
 
  
  
