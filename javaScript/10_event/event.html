@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: black;
+            color: orangered;
+            height: 100px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+
+        }
+        li{
+           font-weight: bold;
+           font-size: 20px;
+        }
+        button{
+            background-color: red;
+            color: black;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(235, 142, 108);
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Event</h2>
+        <ul>
+            <li>Event Handler</li>
+            <li>Event Listener</li>
+        </ul>
+        <button onclick="login()">Event</button>
+    </nav>
+    <main onmouseover="changeColor()" onmouseleave="changeColor2()">
+        <h1>Event in Javascript</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut neque eaque, aliquam quaerat deleniti possimus eligendi totam aspernatur reprehenderit fugiat impedit laborum, labore necessitatibus quae alias commodi unde assumenda qui!</p>
+        <button>Know more</button>
+    </main>
+    <script src="./event.js"></script>
+</body>
+</html>
