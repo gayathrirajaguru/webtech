@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color:violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.outer>.header{
+    
+    display: flex;
+    height: 50px;
+    
+    
+
+}
+.outer>.header>h1{
+    font-size: 30px;
+    color: white;
+    flex-basis: 60%;
+}
+.outer>.header>button{
+    font-size: 20px;
+    color:black;
+    flex-basis: 40%;
+}
+
+.outer>.main{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+           box-sizing: border-box;
+        }
+        .outer{
+            height: 100vh;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #sum{
+            height: 20px;
+            border: 2px solid black;
+            width: 100px;
+        }
+        .inner{
+            height: 200px;
+            width: 300px;
+            background-color: blanchedalmond;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+             display: flex;
+            flex-direction: column;
+
+        }
+        input{
+            height: 30px;
+            width: 150px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        form>label{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <form action="" id="add">
+                <lable for="" id="l"> num1</lable>
+                <input type="number" placeholder="enter the number 1" class="u">
+                <label for="" id="l">num2</label>
+                <input type="number" placeholder="Enter the number 2" class="p">
+                <button>Submit</button>
+                <h1>total</h1>
+                <div id="sum"  ></div>
+            </form>
+        </div>
+        <select name="" id="">
+            <option value="">select </option>
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+        </select>
+    </div>
+    <script src="./add.js">
+        
+    </script>
+</body>
+</html>
