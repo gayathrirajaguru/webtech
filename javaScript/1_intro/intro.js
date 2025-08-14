@@ -7,6 +7,7 @@
  myage=21
  console.log(myname);
  console.log(myage);
+ 
 //  2.var
  var phone = 3456789867;
  console.log(phone);

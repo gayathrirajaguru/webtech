@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: rgb(221, 64, 221);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.outer>h1{
+    color: white;
+}
+.outer>.b>button{
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    background-color: burlywood;
+    color:black;
+    font-weight: bold;
+    
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+.outer>.inner{
+    display: flex;
+    gap: 10px;
+    color: white;
+    text-transform: uppercase;
+}
